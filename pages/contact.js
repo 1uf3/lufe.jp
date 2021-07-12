@@ -22,7 +22,7 @@ export default function Contact () {
               <div className="p-3 sm:w-2/3 flex justify-around">
                 <div>
                   <a
-                    href="https://nerdcave.com/tailwind-cheat-sheet"
+                    href="https://twitter.com/lufe_t"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -39,7 +39,7 @@ export default function Contact () {
                 </div>
                 <div>
                   <a
-                    href="https://nerdcave.com/tailwind-cheat-sheet"
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -55,7 +55,7 @@ export default function Contact () {
                 </div>
                 <div>
                   <a
-                    href="https://nerdcave.com/tailwind-cheat-sheet"
+                    href="https://github.com/lufeee"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
