@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import Image from "next/image";
 
-const Contact = () => {
+export default function Contact () {
     return (
       <Layout title="Contact">
         <div className="container flex flex-wrap justify-center items-center mx-auto min-h-screen">
@@ -76,5 +76,3 @@ const Contact = () => {
       </Layout>
     );
 }
-
-export default Contact
