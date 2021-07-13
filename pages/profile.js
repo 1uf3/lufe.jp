@@ -27,11 +27,11 @@ export default function Profile () {
             </tr>
             <tr className="border-b text-lg">
               <td className="px-2 py-2">2020/10 - 2020/12</td>
-              <td className="px-2 py-2">Security Camp 2020 : D Track Student</td>
+              <td className="px-2 py-2">National Security Camp 2020 : D Track Student</td>
             </tr>
             <tr className="border-b text-lg">
               <td className="px-2 py-2">2021/8 - 2021/10</td>
-              <td className="px-2 py-2">Security Camp 2021 : D Track Tutor</td>
+              <td className="px-2 py-2">National Security Camp 2021 : D Track Tutor</td>
             </tr>
             <tr className="border-b text-lg">
               <td className="px-2 py-2">2021/5 - Present</td>
