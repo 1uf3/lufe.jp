@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Contact () {
     return (
       <Layout title="Contact">
-        <div className="container flex flex-wrap justify-center items-center mx-auto min-h-screen">
+        <div className="container flex flex-wrap justify-center items-center mx-auto ">
           <div className="w-full sm:w-1/12">
             <Image
               className="rounded-full"
