@@ -21,6 +21,11 @@ export default function Layout({ children, title = "Default Layout"}) {
                     Profile
                   </a>
                 </Link>
+                <Link href="/interest">
+                  <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
+                    Interest
+                  </a>
+                </Link>
                 <Link href="/blog">
                   <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
                     Blog
