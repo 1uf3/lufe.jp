@@ -17,7 +17,7 @@ export default function Profile () {
             </tr>
             <tr className="border-b text-lg">
               <td className="px-2 py-2">2020 - Present</td>
-              <td className="px-2 py-2">Ritsumeikan University</td>
+              <td className="px-2 py-2">Ritsumeikan University : Security NetWork</td>
             </tr>
 
             <tr className="border-b">
@@ -31,7 +31,7 @@ export default function Profile () {
             </tr>
             <tr className="border-b text-lg">
               <td className="px-2 py-2">2021/8 - 2021/10</td>
-              <td className="px-2 py-2">Security Camp 2021 : D track Tutor</td>
+              <td className="px-2 py-2">Security Camp 2021 : D Track Tutor</td>
             </tr>
             <tr className="border-b text-lg">
               <td className="px-2 py-2">2021/5 - Present</td>
