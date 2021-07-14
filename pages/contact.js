@@ -17,11 +17,11 @@ export default function Contact () {
 
           <div className="w-full sm:w-2/12 text-center sm:text-left m-3">
             <div>
-              <div className="my-2">
+              <div className="my-2x">
                 <p className="font-bold text-4xl">lufe</p>
                 <p className="text-xs text-gray-600 text-sm">contact@lufe.jp</p>
               </div>
-              <div className="justify-center flex justify-around">
+              <div className="flex justify-around lg:justify-start">
                 <div>
                   <a
                     href="https://twitter.com/lufe_t"
