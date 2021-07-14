@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Contact () {
     return (
       <Layout title="Contact">
-        <div className="container flex flex-wrap justify-center items-center mx-auto ">
-          <div className="w-full sm:w-1/12 text-center">
+        <div className="container flex flex-wrap justify-center items-center">
+          <div className="">
             <Image
               className="rounded-full"
               src="/icon.jpg"
@@ -15,11 +15,13 @@ export default function Contact () {
             />
           </div>
 
-          <div className="w-full sm:w-2/12 p-4 text-center sm:text-left">
+          <div className="w-full sm:w-2/12 text-center sm:text-left m-3">
             <div>
-              <p className="font-bold mt-1">lufe</p>
-              <p className="text-xs mt-2 text-gray-600">contact@lufe.jp</p>
-              <div className="p-3 sm:w-2/3 flex justify-around">
+              <div className="my-2">
+                <p className="font-bold text-4xl">lufe</p>
+                <p className="text-xs text-gray-600 text-sm">contact@lufe.jp</p>
+              </div>
+              <div className="justify-center flex justify-around">
                 <div>
                   <a
                     href="https://twitter.com/lufe_t"
@@ -38,11 +40,7 @@ export default function Contact () {
                   </a>
                 </div>
                 <div>
-                  <a
-                    href=""
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="" target="_blank" rel="noopener noreferrer">
                     <svg
                       className="w-6 h-6 mr-3 text-blue-700"
                       fill="currentColor"
