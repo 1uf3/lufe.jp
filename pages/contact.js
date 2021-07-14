@@ -5,7 +5,7 @@ export default function Contact () {
     return (
       <Layout title="Contact">
         <div className="container flex flex-wrap justify-center items-center mx-auto ">
-          <div className="w-full sm:w-1/12">
+          <div className="w-full sm:w-1/12 text-center">
             <Image
               className="rounded-full"
               src="/icon.jpg"
