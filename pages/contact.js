@@ -21,7 +21,7 @@ export default function Contact () {
                 <p className="font-bold text-4xl">lufe</p>
                 <p className="text-xs text-gray-600 text-sm">contact@lufe.jp</p>
               </div>
-              <div className="flex justify-around lg:justify-start">
+              <div className="flex justify-evenly lg:justify-start">
                 <div>
                   <a
                     href="https://twitter.com/lufe_t"
