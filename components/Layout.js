@@ -45,9 +45,9 @@ export default function Layout({ children, title = "Default Layout"}) {
         </main>
 
         <footer className="w-full flex justify-center items-center h-12 border-t">
-          <a className="flex item-center">
+          <p className="flex item-center">
               CopyRight © 2021, lufe All Right Reserved.
-          </a>
+          </p>
         </footer>
       </div>
     );
