@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import { Navbar } from "../components/Navbar";
 
 export default function Layout({ children, title = "Default Layout"}) {
     return (
@@ -9,25 +10,25 @@ export default function Layout({ children, title = "Default Layout"}) {
         </Head>
         <header>
           <nav className="bg-gray-800 w-screen">
-            <div className="flex items-center pl-8 h-14">
-              <div className="flex space-x-4">
+            <div className="flex items-center pl-2 h-14">
+              <div className="flex">
                 <Link href="/">
-                  <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
+                  <a className="text-gray-300 hover:bg-gray-700 px-2 py-2 rounded">
                     Home
                   </a>
                 </Link>
                 <Link href="/profile">
-                  <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
+                  <a className="text-gray-300 hover:bg-gray-700 px-2 py-2 rounded">
                     Profile
                   </a>
                 </Link>
                 <Link href="/interest">
-                  <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
+                  <a className="text-gray-300 hover:bg-gray-700 px-2 py-2 rounded">
                     Interest
                   </a>
                 </Link>
                 <Link href="/blog">
-                  <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
+                  <a className="text-gray-300 hover:bg-gray-700 px-2 py-2 rounded">
                     Blog
                   </a>
                 </Link>
