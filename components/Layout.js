@@ -27,11 +27,11 @@ export default function Layout({ children, title = "Default Layout"}) {
                     Interest
                   </a>
                 </Link>
-                <Link href="/blog">
+                {/*<Link href="/blog">
                   <a className="text-gray-300 hover:bg-gray-700 px-2 py-2 rounded">
                     Blog
                   </a>
-                </Link>
+                </Link>*/}
                 <Link href="/contact">
                   <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
                     Contact
