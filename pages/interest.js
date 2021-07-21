@@ -9,7 +9,7 @@ export default function Interest () {
         <tbody>
           <tr className="border-b">
             <td colSpan={99} className="px-2 py-2">
-              <h2 className="text-3xl text-pink-400">Area of Interest</h2>
+              <h2 className="text-3xl text-pink-400">興味分野</h2>
             </td>
           </tr>
           <tr className="border-b text-lg">
@@ -33,7 +33,7 @@ export default function Interest () {
 
           <tr className="border-b">
             <td colSpan={99} className="px-2 py-2">
-              <h2 className="text-3xl text-pink-400">Want to Make Things</h2>
+              <h2 className="text-3xl text-pink-400">作りたいもの</h2>
             </td>
           </tr>
           <tr className="border-b text-lg">
