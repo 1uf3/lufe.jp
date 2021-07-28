@@ -4,7 +4,7 @@ import { Navbar } from "../components/Navbar";
 
 export default function Layout({ children, title = "Default Layout"}) {
     return (
-      <div className="flex justify-center items-center flex-col min-h-screen text-gray-600 text-sm font-mono">
+      <div className="flex justify-center items-center flex-col min-h-screen text-gray-600 text-sm font-mono antialiased">
         <Head>
           <title>{title}</title>
         </Head>
