@@ -39,7 +39,7 @@ export default function Profile () {
             </tr>
             <tr className="border-b text-lg">
               <td className="px-2 py-2">2021/8 - Present</td>
-              <td className="px-2 py-2">Penetration Tester</td>
+              <td className="px-2 py-2">Penetration Tester : Part-time Job</td>
             </tr>
 
             <tr className="border-b">
