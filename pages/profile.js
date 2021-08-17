@@ -37,10 +37,7 @@ export default function Profile () {
               <td className="px-2 py-2">2021/5 - Present</td>
               <td className="px-2 py-2">SecHack365 2021 表現駆動 : Trainee</td>
             </tr>
-            <tr className="border-b text-lg">
-              <td className="px-2 py-2">2021/8 - Present</td>
-              <td className="px-2 py-2">Penetration Tester : Part-time Job</td>
-            </tr>
+           
 
             <tr className="border-b">
               <td colSpan={99} className="px-2 py-2">
