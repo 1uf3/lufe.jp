@@ -7,6 +7,7 @@ export default function Layout({ children, title = "Default Layout"}) {
       <div className="flex justify-center items-center flex-col min-h-screen text-gray-600 text-sm font-mono subpixel-antialiased">
         <Head>
           <title>{title}</title>
+          <link rel="icon" href="/icon.jpg" sizes="64x64" type="image/jpg" />
         </Head>
         <header>
           <nav className="bg-gray-800 w-screen">
