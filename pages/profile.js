@@ -30,12 +30,20 @@ export default function Profile () {
               <td className="px-2 py-2">Security Camp 全国大会 2020 : D Track Student</td>
             </tr>
             <tr className="border-b text-lg">
+              <td className="px-2 py-2">2021/7/31</td>
+              <td className="px-2 py-2">MINI Hardening Project #4.0</td>
+            </tr>
+            <tr className="border-b text-lg">
               <td className="px-2 py-2">2021/8 - 2021/10</td>
               <td className="px-2 py-2">Security Camp 全国大会 2021 : D Track Tutor</td>
             </tr>
             <tr className="border-b text-lg">
               <td className="px-2 py-2">2021/10 - 2021/11</td>
               <td className="px-2 py-2">Mini Security Camp 2021 : Student & Tutor</td>
+            </tr>
+            <tr className="border-b text-lg">
+              <td className="px-2 py-2">2021/11</td>
+              <td className="px-2 py-2">Hardening Project Active Fault</td>
             </tr>
             <tr className="border-b text-lg">
               <td className="px-2 py-2">2021/5 - Present</td>
