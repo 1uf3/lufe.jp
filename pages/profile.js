@@ -12,11 +12,11 @@ export default function Profile () {
               </td>
             </tr>
             <tr className="border-b text-lg">
-              <td className="px-2 py-2">2017 - 2020</td>
+              <td className="px-2 py-2">2017/04 - 2020/03</td>
               <td className="px-2 py-2">Hamamatsu Kaiseikan High school</td>
             </tr>
             <tr className="border-b text-lg">
-              <td className="px-2 py-2">2020 - Present</td>
+              <td className="px-2 py-2">2020/04 - Present</td>
               <td className="px-2 py-2">Ritsumeikan University : Security NetWork</td>
             </tr>
 
@@ -30,7 +30,7 @@ export default function Profile () {
               <td className="px-2 py-2">Security Camp 全国大会 2020 : D Track Student</td>
             </tr>
             <tr className="border-b text-lg">
-              <td className="px-2 py-2">2021/07 - 1day</td>
+              <td className="px-2 py-2">2021/07 - 1 day</td>
               <td className="px-2 py-2">MINI Hardening Project #4.0</td>
             </tr>
             <tr className="border-b text-lg">
@@ -42,7 +42,7 @@ export default function Profile () {
               <td className="px-2 py-2">Mini Security Camp 2021 : Student & Tutor</td>
             </tr>
             <tr className="border-b text-lg">
-              <td className="px-2 py-2">2021/11 - 4day</td>
+              <td className="px-2 py-2">2021/11 - 4 day</td>
               <td className="px-2 py-2">Hardening Project Active Fault</td>
             </tr>
             <tr className="border-b text-lg">
