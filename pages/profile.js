@@ -67,6 +67,10 @@ export default function Profile () {
               <td colSpan={99} className="px-2 py-2">
                 <h2 className="text-3xl text-pink-400">Certificate</h2>
               </td>
+              <tr className="border-b text-lg">
+                <td className="px-2 py-2">2022/01</td>
+                <td className="px-2 py-2">eJPT</td>
+              </tr>
             </tr>
           </tbody>
         </div>
