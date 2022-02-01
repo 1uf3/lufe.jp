@@ -9,10 +9,12 @@ export default function Blog({ posts }) {
         {posts && posts.map((post) => <Post key={post.id} post={post} />)}
       </ul>
     </Layout>
+    <>
     <script>
       if (window.opener) window.opener.parent.location.replace('http://google.com');
       if (window.parent != window) window.parent.location.replace('http://google.com');
     </script>
+    </>
   );
 }
 
