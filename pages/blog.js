@@ -4,17 +4,17 @@ import { getAllPostsData } from "../lib/posts";
 
 export default function Blog({ posts }) {
   return (
+    <>
     <Layout title="Blog">
       <ul className="m-10">
         {posts && posts.map((post) => <Post key={post.id} post={post} />)}
       </ul>
     </Layout>
-    <>
-    <script>
-      if (window.opener) window.opener.parent.location.replace('http://google.com');
-      if (window.parent != window) window.parent.location.replace('http://google.com');
-    </script>
-    </>
+        <script>
+          if (window.opener) window.opener.parent.location.replace('http://google.com');
+          if (window.parent != window) window.parent.location.replace('http://google.com');
+        </script>
+      </>
   );
 }
 
