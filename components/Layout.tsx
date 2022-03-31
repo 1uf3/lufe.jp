@@ -4,9 +4,10 @@ import { Navbar } from "./Navbar";
 
 export type Props = React.PropsWithChildren<{
     title?: string;
+    description?: string;
 }>;
 
-export default function Layout({ children, title}: Props) {
+export default function Layout({ children, title, description}: Props) {
     return (
         <div
             className="flex justify-center items-center flex-col min-h-screen text-gray-600 text-sm font-mono subpixel-antialiased">
@@ -33,11 +34,11 @@ export default function Layout({ children, title}: Props) {
                                     Interest
                                 </a>
                             </Link>
-                            {/*<Link href="/blog">
-                  <a className="text-gray-300 hover:bg-gray-700 px-2 py-2 rounded">
-                    Blog
-                  </a>
-                </Link>*/}
+                            <Link href="/blog">
+                                <a className="text-gray-300 hover:bg-gray-700 px-2 py-2 rounded">
+                                    Blog
+                                </a>
+                            </Link>
                             <Link href="/contact">
                                 <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
                                     Contact
